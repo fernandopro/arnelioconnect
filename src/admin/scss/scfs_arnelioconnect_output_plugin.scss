@@ -1,0 +1,29 @@
+#wpadminbar ul li {
+  &.arnelioconnect_admin_bar {
+    & > a {
+      background: rgba(#801f4f, 0.6) !important;
+      color: #ffffff !important;
+      &:hover {
+        background-color: #801f4f !important;
+        color: #ffffff !important;
+      }
+    }
+
+    .arnelioconnect_admin_bar__count {
+      display: inline-block;
+      box-sizing: border-box;
+      margin: 1px 0 -1px 2px;
+      padding: 0 5px;
+      min-width: 18px;
+      height: 18px;
+      border-radius: 9px;
+      background-color: #1d2327;
+      color: #c3c4c7;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 1.6;
+      text-align: center;
+      z-index: 26;
+    }
+  }
+}

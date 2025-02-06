@@ -1,0 +1,90 @@
+#wpbody-content {
+  .layo-arnelio_section {
+    .layo-arnelio_section__body {
+      .layo-field {
+        .field-arnelio-image-radio {
+          display: grid;
+          grid-gap: 15px;
+          grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+          .form-check-image-radio {
+            input {
+              display: none;
+              &:checked + label .form-check-image {
+                //border: 2px solid $primary;
+                border-radius: var(--bs-border-radius);
+                outline: 4px solid $primary;
+              }
+            }
+            label {
+              cursor: pointer;
+              img.form-check-image {
+                background-color: RGBA(var(--bs-light-rgb), var(--bs-bg-opacity, 1));
+                display: block;
+                max-width: 100%;
+                padding: 5px;
+                box-sizing: border-box;
+                border-radius: 4px;
+                object-fit: cover;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#wpbody-content {
+  .layo-arnelio_section {
+    /////////////////////////////  Box default /////////////////////////////
+    .text-bg-default {
+      .layo-arnelio_section__body {
+        .field-arnelio-image-radio {
+        }
+      }
+    }
+
+    /////////////////////////////  Box primary /////////////////////////////
+    .text-bg-primary {
+      .layo-arnelio_section__body {
+        .field-arnelio-image-radio {
+          .form-check-image-radio {
+            input {
+              display: none;
+              &:checked + label .form-check-image {
+                outline: 5px solid rgba(#000, 0.4) !important;
+                box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+                opacity: 1;
+              }
+              &:not(:checked) + label .form-check-image {
+                opacity: 0.8;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /////////////////////////////  Box secondary /////////////////////////////
+
+    .text-bg-secondary {
+      .layo-arnelio_section__body {
+        .field-arnelio-image-radio {
+          .form-check-image-radio {
+            input {
+              display: none;
+              &:checked + label .form-check-image {
+                outline: 5px solid rgba(#000, 0.4) !important;
+                box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+                opacity: 1;
+              }
+              &:not(:checked) + label .form-check-image {
+                opacity: 0.8;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+// Custom Colors
+$back_wordpress: #f0f0f1;
+$primary_wordpress: #2271b1;
+
+
+
+
+
+
+////////////////////////  VARIABLES BOOTSTRAP  ////////////////////////
+
+$primary: #13795b !default; //#13795b;
+$secondary: #6c757d !default;
+
+
+// Sobrescribir variables de fuente de Bootstrap
+$font-family-sans-serif: 'Wp Plugin', sans-serif !default;
+$font-family-base: $font-family-sans-serif;
+$font-weight-base: 400 !default;
+$font-weight-bold: 700 !default;
+
+$rem-arnelio: 0.875rem;
+// $dropdown-font-size: $rem-arnelio !default;
+// $input-font-size: $rem-arnelio !default;
+$font-size-base: $rem-arnelio !default;
+// $line-height-base: 1.5 !default;
+$border-radius: 6px;
+
+$h1-font-size   : $font-size-base * 1.75 !default;
+$h2-font-size   : $font-size-base * 1.5 !default;
+$h3-font-size   : $font-size-base * 1.15 !default;
+$field-font-size: $font-size-base - 0.0625rem !default;  // Equivale a 13px
+$field-h4-size  : $font-size-base !default;  // Equivale a 14px
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 961px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 601px,
+  md: 783px,
+  lg: 961px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+
+*{
+  -webkit-font-smoothing: antialiased;
+}

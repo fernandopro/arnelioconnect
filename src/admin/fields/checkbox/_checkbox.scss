@@ -1,0 +1,59 @@
+#wpbody-content {
+    .layo-arnelio_section {
+      .layo-arnelio_section__body {
+        .layo-field {
+          .field-arnelio-checkbox {
+            .form-check-label {
+                color: var(--bs-secondary-color);
+              }
+          }
+        }
+      }
+    }
+  }
+  
+  #wpbody-content {
+    .layo-arnelio_section {
+      /////////////////////////////  Box default /////////////////////////////
+      .text-bg-default {
+        .layo-arnelio_section__body {
+          .field-arnelio-checkbox {
+          }
+        }
+      }
+  
+      /////////////////////////////  Box primary /////////////////////////////
+      .text-bg-primary {
+        .layo-arnelio_section__body {
+          .field-arnelio-checkbox {
+            .form-check-input:checked {
+              border-color: lighten($primary, 10%) !important;
+              outline: 2px solid rgba(#ffffff, 0.5) !important;
+            }
+            .form-check-label {
+              color: #ffffff !important;
+              opacity: 0.7;
+            }
+          }
+        }
+      }
+  
+      /////////////////////////////  Box secondary /////////////////////////////
+  
+      .text-bg-secondary {
+        .layo-arnelio_section__body {
+          .field-arnelio-checkbox {
+            .form-check-input:checked {
+              border-color: lighten($primary, 10%) !important;
+              outline: 2px solid rgba(#ffffff, 0.5) !important;
+            }
+            .form-check-label {
+              color: #ffffff !important;
+              opacity: 0.7;
+            }
+          }
+        }
+      }
+    }
+  }
+  

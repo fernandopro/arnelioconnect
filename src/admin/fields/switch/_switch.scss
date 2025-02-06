@@ -1,0 +1,133 @@
+#wpbody-content {
+  .layo-arnelio_section {
+    .layo-arnelio_section__body {
+      .layo-field {
+        .field-arnelio-switch {
+          &.form-switch {
+            .field-arnelio-switch-content {
+              margin-right: 10%;
+            }
+            padding: 0;
+            .form-check-input {
+              width: 3rem;
+              height: 1.3rem;
+              margin-left: 2%;
+              margin-right: 16px;
+              &:active {
+                filter: none;
+              }
+            }
+          }
+        }
+      }
+      .layo-field-bg {
+        .field-arnelio-switch {
+          &.form-switch {
+            .form-check-input {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#wpbody-content {
+  .layo-arnelio_section {
+    /////////////////////////////  Box default /////////////////////////////
+    .text-bg-default {
+      .layo-arnelio_section__body {
+        .field-arnelio-switch {
+          &.form-switch {
+            .form-check-label {
+              color: var(--bs-secondary-color);
+              h4 {
+                color: var(--bs-body-color);
+              }
+            }
+            .form-check-input {
+              border: var(--bs-border-width) solid var(--bs-border-color);
+              background-image: url(unquote(
+                "data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27%23c9cdd1%27/%3e%3c/svg%3e"
+              ));
+              &:checked {
+                background-color: rgba($primary, 0.9) !important;
+                background-image: url(unquote(
+                  "data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27%23fff%27/%3e%3c/svg%3e"
+                ));
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /////////////////////////////  Box primary /////////////////////////////
+    .text-bg-primary {
+      .layo-arnelio_section__body {
+        .field-arnelio-switch {
+          &.form-switch {
+            .form-check-input {
+              $primary-url: str-slice(inspect($primary), 2);
+              background-color: rgba(#ffffff, 0.2);
+              border-color: transparent;
+              background-image: url(unquote(
+                "data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27%23#{$primary-url}%27/%3e%3c/svg%3e"
+              ));
+              &:checked {
+                background-color: rgba(#ffffff, 0.3);
+                border-color: transparent;
+                background-image: url(unquote(
+                  "data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27%23fff%27/%3e%3c/svg%3e"
+                ));
+              }
+            }
+            .field-arnelio-switch-content {
+              h4 {
+                opacity: 1;
+              }
+              .form-check-label {
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /////////////////////////////  Box secondary /////////////////////////////
+
+    .text-bg-secondary {
+      .layo-arnelio_section__body {
+        .field-arnelio-switch {
+          &.form-switch {
+            .form-check-input {
+              $secondary-url: str-slice(inspect($secondary), 2);
+              background-color: rgba(#ffffff, 0.2);
+              border-color: transparent;
+              background-image: url(unquote(
+                "data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27%23#{$secondary-url}%27/%3e%3c/svg%3e"
+              ));
+              &:checked {
+                background-color: $primary;
+                border-color: $primary;
+                background-image: url(unquote(
+                  "data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27%23fff%27/%3e%3c/svg%3e"
+                ));
+              }
+            }
+            .field-arnelio-switch-content {
+              h4 {
+                opacity: 1;
+              }
+              .form-check-label {
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

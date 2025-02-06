@@ -1,0 +1,45 @@
+#wpbody-content {
+  .layo-arnelio_section {
+    .layo-arnelio_section__body {
+      .layo-field {
+        .field-arnelio-wp-editor {
+        }
+      }
+    }
+  }
+}
+
+#wpbody-content {
+  .layo-arnelio_section {
+    /////////////////////////////  Box default /////////////////////////////
+    .text-bg-default {
+      .layo-arnelio_section__body {
+        .field-arnelio-wp-editor {
+        }
+      }
+    }
+
+    /////////////////////////////  Box primary /////////////////////////////
+    .text-bg-primary {
+      .layo-arnelio_section__body {
+        .field-arnelio-wp-editor {
+          .mce-toolbar .mce-ico {
+            color: #50575e !important;
+          }
+        }
+      }
+    }
+
+    /////////////////////////////  Box secondary /////////////////////////////
+
+    .text-bg-secondary {
+      .layo-arnelio_section__body {
+        .field-arnelio-wp-editor {
+            .mce-toolbar .mce-ico {
+                color: #50575e !important;
+              }
+        }
+      }
+    }
+  }
+}

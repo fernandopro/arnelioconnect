@@ -1,0 +1,98 @@
+//////////////////////////////////////////////////
+/// ELEMENTOR  WIDGET - Sidebar izquierdo ///
+///
+$color_fondo_search: #333438;
+$text_description: #9da5ae;
+
+.elementor-control-scfs_shortcode_section {
+}
+
+.elementor-control-scfs_shortcode_search_text {
+  .shortcode_widget_text {
+    position: relative;
+    .screen-reader-text {
+      position: absolute;
+      top: -10000em;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+    input {
+      font-size: 12px;
+      padding-block: 10px;
+      padding-inline: 29px 10px;
+      font-style: italic;
+      border: var(--e-a-border-bold);
+      border-radius: 0;
+      transition: all 1s;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      & + i {
+        position: absolute;
+        left: 10px;
+        top: 18px;
+        color: var(--e-a-color-txt-disabled);
+        transform: translateY(-50%);
+      }
+    }
+    #search_results{
+      margin-top: 10px;
+      ul{
+        li{
+          position: relative;
+          display: flex;
+          height: 30px;
+          cursor: pointer;
+          transition: padding .5s linear;
+          overflow: hidden;
+          padding-left: 10px;
+          line-height: 2.3;
+          border-bottom: 1px solid $color_fondo_search;
+          box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .1);
+          &:hover{
+            background: $color_fondo_search;
+            padding-inline-start: 10px;
+          }
+        }
+      }
+    }
+    .search_description{
+      --control-title-size: 12px;
+      position: relative;
+      padding: 20px 20px 15px;
+      font-size: 12px;
+      font-style: italic;
+      line-height: 1.4;
+      color: var(--e-a-color-txt-muted);
+    }
+  }
+}
+
+//////////////////////////////////////////////////
+/// ELEMENTOR  PREVIEW EDITOR - only for admin ///
+///
+.elementor-widget-tarokina-shortcode {
+  .edit_shortcode_widget {
+    //border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 250px;
+    border-left: 1px solid rgb(12, 13, 14);
+    border-right: 1px solid rgb(12, 13, 14);
+  }
+
+  .edit_shortcode_widget .esw_title {
+    color: rgb(255, 255, 255);
+    background: rgb(12, 13, 14);
+    padding: 0 10px;
+    border-radius: 2px;
+    margin-top: 10px;
+  }
+}

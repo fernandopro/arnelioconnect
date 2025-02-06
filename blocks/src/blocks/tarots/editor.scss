@@ -1,0 +1,47 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-tarokina-tarots {
+    font-size: 13px;
+    color: #1e1e1e;
+    font-weight: 600;
+    padding: 24px;
+    border: 1px solid #742c7a;
+    border-radius: 2px;
+    background: #742c7a;
+
+	.nameShortcode {
+        font-size: 13px;
+        color: #fff;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        margin-bottom: 10px;
+        svg{
+            margin-right: 5px;
+            fill: #fff;
+        }
+	}
+
+    #filterContent{
+        li{
+            cursor: pointer;
+            color: #d4b3d7;
+            &:hover{
+               color: #ffffff;
+            }
+        }
+    }
+
+}
+
+
+
+.elementor-widget-container{
+    background: red;
+    padding: 20px;
+}

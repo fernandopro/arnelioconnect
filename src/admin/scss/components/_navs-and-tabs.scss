@@ -1,0 +1,120 @@
+// // Nav tabs
+// .nav.nav-tabs {
+//   .nav-item {
+//     margin-bottom: 0;
+//     margin-right: 8px;
+//     &:hover {
+//       .nav-link {
+//         color: var(--bs-nav-tabs-link-active-color);
+//         background-color: var(--bs-nav-tabs-link-active-bg);
+//         border-color: var(--bs-nav-tabs-link-active-border-color);
+//       }
+//     }
+//   }
+// }
+
+// // Nav pills
+// .nav.nav-pills {
+//   .nav-link {
+//     font-size: 0.75rem;
+//     padding: 0.25rem 0.5rem;
+//     //transition: all 0.3s ease; // Smooth transition for all properties
+//     // &:not(.active):hover {
+//     //   text-decoration: underline;
+//     // }
+//   }
+// }
+
+// Menu principal
+.scfs-cabecera {
+  position: relative;
+  @media (max-width: 782px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  a:focus {
+    box-shadow: none;
+    outline: none;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav-logo {
+      .nav-item {
+        background-color: #ffffff;
+      }
+    }
+  }
+
+  .logo {
+    font-size: 1.5rem; // 2.03125rem
+    font-weight: 900;
+    @media (max-width: 782px) {
+      display: none;
+    }
+    .logo1 {
+      color: var(--bs-gray-900);
+    }
+    .logo2 {
+      color: var(--bs-primary);
+    }
+  }
+
+  .logoMobile {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 7px 0;
+    @media (min-width: 783px) {
+      display: none;
+    }
+    .logo1 {
+      color: var(--bs-gray-900);
+    }
+    .logo2 {
+      color: var(--bs-primary);
+    }
+  }
+
+  .navbar-brand {
+    display: none;
+    @media (max-width: 782px) {
+      display: block;
+    }
+  }
+
+  .navbar {
+    // border-top: 1px solid var(--bs-border-color);
+    border-bottom: 1px solid var(--bs-border-color);
+    box-shadow: 0 0.0625rem 0.3175rem rgba(34, 48, 62, 0.059);
+    margin-bottom: 1.5rem !important;
+    .dropdown {
+      margin: 0 !important;
+      @media (max-width: 782px) {
+        margin-bottom: 20px !important;
+      }
+    }
+    .nav-link {
+      padding: 1rem 1rem 1rem;
+      margin-right: 10px;
+      @media (max-width: 961px) {
+        padding: 0.70rem 0.70rem 0.70rem;
+        margin-right: 5px;
+      }
+
+      @media (min-width: 783px) {
+        border-bottom: 2px solid transparent;
+      }
+      &:hover {
+        background-color: rgba($primary, 0.2) !important;
+        color: rgba(var(--bs-link-color-rgb));
+      }
+      &.active {
+        background-color: rgba($primary, 0.2) !important;
+        color: rgba(var(--bs-link-color-rgb));
+        font-weight: 800;
+      }
+    }
+  }
+}

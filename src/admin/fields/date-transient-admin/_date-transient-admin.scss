@@ -1,0 +1,204 @@
+#wpbody-content {
+  .layo-arnelio_section {
+    .layo-arnelio_section__body {
+      .layo-field {
+        .layo-field-name-btns{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .layo-field-btns{
+            position: relative;
+            margin-right: 0.25rem;
+            display: flex;
+            align-items: center;
+            .spinner-grow {
+              width: 8px;
+              height: 8px;
+              position: absolute;
+              top: -6px;
+              right: -8px;
+            }
+            .badge{
+              margin-right: 0.25rem;
+            }
+            .badge-light{
+              padding: 0.75rem;
+              &:hover{
+                background-color: var(--bs-danger) !important;
+                color: #fff !important;
+              }
+            }
+          }
+        }
+        .field-arnelio-date-transient-admin {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: end;
+          label {
+            font-size: $field-font-size;
+            color: var(--bs-body-color);
+          }
+          .field-arnelio-date-transient-admin__content {
+            position: relative;
+            flex: auto;
+            margin: 0 0 1rem 0;
+            .date-wrapper {
+              display: flex;
+              align-items: center;
+              input {
+                max-width: 100%;
+                margin-right: 0.25rem;
+                cursor: pointer;
+                /* Eliminar los estilos predeterminados del navegador para el background */
+                &::-webkit-calendar-picker-indicator {
+                  cursor: pointer;
+                }
+
+                &::-moz-calendar-picker-indicator {
+                  cursor: pointer;
+                }
+
+                /* Estilos para Firefox */
+                &::-webkit-inner-spin-button,
+                &::-webkit-calendar-picker-indicator {
+                  cursor: pointer;
+                }
+              }
+            }
+            .date-transient-admin_end-notification {
+              position: relative;
+              display: flex;
+              justify-content: space-between;
+              align-items: end;
+              margin-right: 5px;
+              button {
+                position: relative;
+                bottom: 8px;
+              }
+              .badge {
+                position: absolute;
+                bottom: 9px;
+                right: 53px;
+              }
+            }
+          }
+          .panel-date {
+            margin-top: 0.55rem;
+            margin-bottom: 1rem;
+          }
+          .disabled_date {
+            background-color: RGBA(
+              var(--bs-light-rgb),
+              var(--bs-bg-opacity, 1)
+            ) !important;
+            color: var(--bs-secondary-color) !important;
+            opacity: 0.6;
+            pointer-events: none;
+            cursor: not-allowed;
+          }
+          .btn-date-time {
+            background-color: rgba($primary, 0.2) !important;
+            color: rgba(var(--bs-link-color-rgb)) !important;
+            font-weight: 700 !important;
+            border: none !important;
+            pointer-events: none;
+            cursor: not-allowed;
+
+            /* Eliminar los estilos predeterminados del navegador para el background */
+            &::-webkit-calendar-picker-indicator {
+              visibility: hidden !important;
+            }
+
+            &::-moz-calendar-picker-indicator {
+              visibility: hidden !important;
+            }
+
+            /* Estilos para Firefox */
+            &::-webkit-inner-spin-button,
+            &::-webkit-calendar-picker-indicator {
+              visibility: hidden !important;
+            }
+          }
+        }
+        .date-transient-admin-help {
+          position: relative;
+          bottom: 12px;
+        }
+      }
+    }
+  }
+}
+
+#wpbody-content {
+  .layo-arnelio_section {
+    /////////////////////////////  Box default /////////////////////////////
+    .text-bg-default {
+      .layo-arnelio_section__body {
+        .field-arnelio-date-transient-admin {
+        }
+      }
+    }
+
+    /////////////////////////////  Box primary /////////////////////////////
+    .text-bg-primary {
+      .layo-arnelio_section__body {
+        .field-arnelio-date-transient-admin {
+          label {
+            color: #fff !important;
+          }
+          input {
+            border: 3px solid rgba(255, 255, 255, 0.5) !important;
+            color: var(--bs-body-color) !important;
+          }
+          .btn-date-time {
+            color: #fff !important;
+          }
+          .panel-date button {
+            outline: 3px solid rgba(255, 255, 255, 0.5) !important;
+            position: relative;
+            bottom: 2px;
+          }
+          .btn-box-arnelio:hover{
+            background-color: rgba(#fff, 0.2) !important;
+            color: #fff !important;
+            box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba($primary, 0.25);
+            outline: 2px solid rgba(255, 255, 255, 0.5) !important;
+            border-color: rgba(255, 255, 255, 0.5);
+          }
+        }
+      }
+    }
+
+    /////////////////////////////  Box secondary /////////////////////////////
+
+    .text-bg-secondary {
+      .layo-arnelio_section__body {
+        .field-arnelio-date-transient-admin {
+          label {
+            color: #fff !important;
+          }
+          input {
+            border: 3px solid rgba(255, 255, 255, 0.5) !important;
+            color: var(--bs-body-color) !important;
+          }
+          .btn-date-time {
+            background-color: rgba($secondary, 0.2) !important;
+            color: #fff !important;
+          }
+          .panel-date button {
+            outline: 3px solid rgba(255, 255, 255, 0.5) !important;
+            position: relative;
+            bottom: 2px;
+          }
+          .btn-box-arnelio:hover{
+            background-color: rgba(#fff, 0.2) !important;
+            color: #fff !important;
+            box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba($primary, 0.25);
+            outline: 2px solid rgba(255, 255, 255, 0.5) !important;
+            border-color: rgba(255, 255, 255, 0.5);
+          }
+        }
+      }
+    }
+  }
+}

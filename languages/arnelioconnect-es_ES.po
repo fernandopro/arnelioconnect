@@ -1,0 +1,812 @@
+# Copyright (C) 2024 arnelio
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: arnelioconnect 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/arnelioconnect\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-19T19:37:19+00:00\n"
+"PO-Revision-Date: 2025-01-16 08:01+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: arnelioconnect\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.14; wp-6.7.1"
+
+#: includes/functions.php:40
+msgid "__________ by the Arnelio team"
+msgstr "__________ por el equipo Arnelio"
+
+#: src/admin/pages/plantilla/data-plantilla.php:33
+msgid "Acción"
+msgstr "Acción"
+
+#: src/admin/class-arnelioconnect-admin.php:121
+msgid "Action"
+msgstr "Acción"
+
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:119
+msgid "Activar"
+msgstr "Activar"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:232
+msgid "Activar Extras"
+msgstr "Activar Extras"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:215
+msgid "Activar modo Pro"
+msgstr "Activar modo Pro"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:227
+msgid "Actualizar Etiqueta"
+msgstr "Actualizar Etiqueta"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:169
+msgctxt "Add New on Toolbar"
+msgid "New Alimentos"
+msgstr "Nuevos Alimentos"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:228
+msgid "Agregar Nueva Etiqueta"
+msgstr "Añadir nueva etiqueta"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:175
+#: src/admin/cpt/alimentacion/class-alimentacion.php:266
+#: src/admin/cpt/alimentacion/class-alimentacion.php:267
+msgid "Alimentos"
+msgstr "Alimentos"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:183
+msgid "alimentos archives"
+msgstr "alimentos archivos"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:188
+msgid "alimentos list"
+msgstr "lista de alimentos"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:187
+msgid "alimentos list navigation"
+msgstr "lista de alimentos navegación"
+
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3225
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3299
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3225
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3348
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3355
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3415
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3183
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3306
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3313
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3373
+#: src/admin/fields/compare-time-field/compare-time-field.js:121
+#: src/admin/fields/date-transient-admin/date-transient-admin.js:101
+#: src/admin/fields/date-transient-admin/date-transient-admin.js:115
+#: src/admin/fields/image-wordpress/image-wordpress.js:40
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2157
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2222
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2157
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2283
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2297
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2348
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2130
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2256
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2270
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2321
+msgid "An error occurred."
+msgstr "Se ha producido un error."
+
+#: src/admin/class-arnelioconnect-admin.php:122
+msgid "Another action"
+msgstr "Otra acción"
+
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3236
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3236
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3318
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3194
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3276
+#: src/admin/fields/compare-time-field/compare-time-field.js:134
+#: src/admin/fields/date-transient-admin/date-transient-admin.js:67
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2170
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2170
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2249
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2143
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2222
+msgid "Are you sure?"
+msgstr "¿Seguro?"
+
+#. Author of the plugin
+#: arnelioconnect.php
+msgid "arnelio"
+msgstr "arnelio"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:120
+msgid "Arroz con leche"
+msgstr "Arroz con leche"
+
+#: src/admin/pages/plantilla/data-plantilla.php:21
+msgid "Barcelona"
+msgstr "Barcelona"
+
+#: blocks/src/blocks/curvy/block.json
+msgctxt "block description"
+msgid "Muestra un panel curvo con un título y un texto"
+msgstr "Muestra un panel curvo con un título y un texto"
+
+#: blocks/src/blocks/curvy/block.json
+msgctxt "block title"
+msgid "Curvy"
+msgstr "Curvy"
+
+#: blocks/src/blocks/tarots/block.json
+msgctxt "block title"
+msgid "Tarokina"
+msgstr "Tarokina"
+
+#: elementor/includes/widgets/shortcode_widget.php:139
+msgid ""
+"Busca un tarot por su nombre e insertalo directamente en el contenido. "
+"Accede a la lista de lecturas de tarot desde este link. %1$s"
+msgstr ""
+"Busca un tarot por su nombre e insértalo directamente en el contenido. "
+"Accede a la lista de lecturas de tarot desde este link. %1$s"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:224
+msgid "Buscar Etiquetas"
+msgstr "Buscar Etiquetas"
+
+#: src/admin/cpt/alimentacion/data-alimentacion.php:27
+msgid "Carnes"
+msgstr "Carnes"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:365
+msgid "categoria"
+msgstr "categoría"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:136
+#: src/admin/cpt/alimentacion/class-alimentacion.php:296
+msgid "Categorias"
+msgstr "Categorías"
+
+#: src/admin/pages/plantilla/data-plantilla.php:9
+msgid "Celta"
+msgstr "Celta"
+
+#: src/admin/cpt/alimentacion/data-alimentacion.php:35
+msgid "Cerdo"
+msgstr "Cerdo"
+
+#: src/admin/pages/plantilla/data-plantilla.php:39
+msgid "Comedia"
+msgstr "Comedia"
+
+#: src/admin/cpt/alimentacion/data-alimentacion.php:5
+msgid "Congelados"
+msgstr "Congelados"
+
+#: src/admin/cpt/alimentacion/data-alimentacion.php:14
+msgid "Croquetas"
+msgstr "Croquetas"
+
+#: src/admin/cpt/alimentacion/register/congelados-croquetas.php:15
+#: src/admin/pages/dashboard/register/dashboard.php:15
+msgid "Custom CSS"
+msgstr "CSS personalizado"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:448
+msgid "Custom Css"
+msgstr "Css personalizado"
+
+#: src/admin/pages/dashboard/class-dashboard.php:109
+#: src/admin/pages/dashboard/data-dashboard.php:6
+#: src/admin/pages/dashboard/data-dashboard.php:9
+msgid "Dashboard"
+msgstr "Cuadro de mandos"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:520
+msgid "Date Comidas"
+msgstr "Fecha Comidas"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:306
+msgid "Date Deporte"
+msgstr "Fecha Deporte"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:126
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:135
+msgid "Delete"
+msgstr "Borrar"
+
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:120
+msgid "Desactivar"
+msgstr "Desactivar"
+
+#. Description of the plugin
+#: arnelioconnect.php
+msgid "Descripcion del plugin"
+msgstr "Descripción del plugin"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:410
+msgid "Descripción Wp_editor"
+msgstr "Descripción Wp_editor"
+
+#: includes/functions.php:54
+msgid "Docs"
+msgstr "Docs"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:132
+msgid "Edit Categoria"
+msgstr "Editar categoría"
+
+#: elementor/includes/widgets/shortcode_widget.php:139
+msgid "Edit tarot"
+msgstr "Editar tarot"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:226
+msgid "Editar Etiqueta"
+msgstr "Editar Etiqueta"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:189
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:203
+msgid "End"
+msgstr "Fin"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:484
+msgid "Entrenadores"
+msgstr "Entrenadores"
+
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:32
+msgid "Espacio"
+msgstr "Espacio"
+
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:49
+msgid "Espacio 2"
+msgstr "Espacio 2"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:230
+#: src/admin/cpt/alimentacion/class-alimentacion.php:315
+#: src/admin/cpt/alimentacion/class-alimentacion.php:371
+msgid "Etiquetas"
+msgstr "Etiquetas"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:462
+msgid "Etiquetas en %s"
+msgstr "Etiquetas en %s"
+
+#. Plugin Name of the plugin
+#: arnelioconnect.php src/admin/pages/dashboard/class-dashboard.php:92
+msgid "arnelioconnect"
+msgstr "arnelioconnect"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:241
+#: src/admin/fields/compare-time-field/compare-time-field.php:247
+msgid "Field missing."
+msgstr "Falta campo."
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:186
+msgid "Filter alimentos list"
+msgstr "Filtrar lista de alimentos"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:117
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:127
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3241
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3241
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3199
+#: src/admin/fields/compare-time-field/compare-time-field.js:139
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2175
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2175
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2148
+msgid "Finished"
+msgstr "Terminado"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:138
+msgid "Flan"
+msgstr "Flan"
+
+#: includes/functions.php:60
+msgid "Free Plugins"
+msgstr "Plugins gratuitos"
+
+#: src/admin/pages/plantilla/data-plantilla.php:6
+msgid "Fútbol"
+msgstr "Fútbol"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:166
+msgctxt "General name"
+msgid "Alimentos"
+msgstr "Alimentos"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:502
+msgid "Helado"
+msgstr "Helado"
+
+#: src/admin/pages/plantilla/register/futbol/barsa.php:7
+msgid "Hello World"
+msgstr "Hola Mundo"
+
+#. Plugin URI of the plugin
+#: arnelioconnect.php
+msgid "https://arnelio.com"
+msgstr "https://arnelio.com"
+
+#. Author URI of the plugin
+#: arnelioconnect.php
+msgid "https://arnelio.com/"
+msgstr "https://arnelio.com/"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:179
+msgid "Image Alimento"
+msgstr "Imagen Alimento"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:361
+msgid "Image upload"
+msgstr "Carga de imágenes"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:184
+msgid "Insert into alimentos"
+msgstr "Insertar en alimentos"
+
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3242
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3242
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3200
+#: src/admin/fields/compare-time-field/compare-time-field.js:140
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2176
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2176
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2149
+msgid "Insert new date."
+msgstr "Insertar nueva fecha."
+
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3216
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3216
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3174
+#: src/admin/fields/compare-time-field/compare-time-field.js:104
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2140
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2140
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2113
+msgid "Invalid JSON response"
+msgstr "Respuesta JSON no válida"
+
+#: elementor/includes/widgets/shortcode_widget.php:127
+msgid "Isert tarot"
+msgstr "Isert tarot"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:102
+msgid "Jugadores"
+msgstr "Jugadores"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:107
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:117
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:203
+#: src/admin/pages/plantilla/register/futbol/celta.php:221
+#: src/admin/pages/plantilla/register/futbol/celta.php:238
+#: src/admin/pages/plantilla/register/futbol/celta.php:256
+#: src/admin/pages/plantilla/register/futbol/celta.php:272
+#: src/admin/pages/plantilla/register/futbol/celta.php:293
+#: src/admin/pages/plantilla/register/futbol/celta.php:312
+#: src/admin/pages/plantilla/register/futbol/celta.php:549
+msgid ""
+"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, "
+"molestias nobis, qui illo est nesciunt quod cum consequuntur eos quia "
+"adipisci."
+msgstr ""
+"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, "
+"molestias nobis, qui illo est nesciunt quod cum consequuntur eos quia "
+"adipisci."
+
+#: src/admin/cpt/alimentacion/data-alimentacion.php:8
+msgid "Merluza"
+msgstr "Merluza"
+
+#: src/admin/pages/plantilla/register/peliculas/accion.php:71
+msgid "Multi lenguaje"
+msgstr "Multi lenguaje"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:170
+#: src/admin/cpt/alimentacion/class-alimentacion.php:172
+msgid "New Alimento"
+msgstr "Nuevo Alimento"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:134
+#: src/admin/cpt/alimentacion/class-alimentacion.php:135
+msgid "New Categoria"
+msgstr "Nueva categoría"
+
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3197
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3197
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3324
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3155
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3282
+#: src/admin/fields/compare-time-field/compare-time-field.js:80
+#: src/admin/fields/date-transient-admin/date-transient-admin.js:73
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2116
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2116
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2255
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2089
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2228
+msgid "No"
+msgstr "No"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:178
+msgid "No Alimentos found in Trash."
+msgstr "No se han encontrado Alimentos en la Papelera."
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:177
+msgid "No Alimentos found."
+msgstr "No se han encontrado alimentos."
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:137
+msgid "No categorias found"
+msgstr "No se han encontrado categorías"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:487
+msgid "No hay contenido en %s"
+msgstr "No hay contenido en %s"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:513
+msgid "No hay etiquetas disponibles"
+msgstr "No hay etiquetas disponibles"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:479
+msgid "No hay etiquetas en %s"
+msgstr "No hay etiquetas en %s"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:235
+msgid "No permissions."
+msgstr "Sin permisos."
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:231
+msgid "No se encontraron etiquetas"
+msgstr "No se encontraron etiquetas"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:392
+#: src/admin/pages/plantilla/register/peliculas/accion.php:17
+msgid "Nombre"
+msgstr "Nombre"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:229
+msgid "Nueva Etiqueta"
+msgstr "Nueva Etiqueta"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:466
+msgid "Number"
+msgstr "Número"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:134
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:143
+msgid "On standby"
+msgstr "En espera"
+
+#: src/admin/modules/all_offcanvas.php:177
+#| msgid "Read"
+msgctxt "Past tense - indicating something has been read"
+msgid "Articles read"
+msgstr "Artículos leídos"
+
+#: src/admin/pages/plantilla/data-plantilla.php:30
+msgid "Películas"
+msgstr "Películas"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:36
+msgid "Pilotos de la Fórmula 1"
+msgstr "Pilotos de la Fórmula 1"
+
+#: src/admin/cpt/alimentacion/data-alimentacion.php:19
+msgid "Pizza"
+msgstr "Pizza"
+
+#: src/admin/pages/plantilla/class-plantilla.php:87
+msgid "plantilla"
+msgstr "plantilla"
+
+#: src/admin/class-arnelioconnect-admin.php:238
+#| msgid ""
+#| "Please rate %1$s <a href=\"%2$s\" target=\"_blank\" rel=\"noopener "
+#| "noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%3$s\" "
+#| "target=\"_blank\" rel=\"noopener\">arnelio.com</a> to help us spread the "
+#| "word. Thank you from the Arnelio team!"
+msgid ""
+"Please rate %1s <a href=\"%2s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%3s\" "
+"target=\"_blank\" rel=\"noopener\">arnelio.com</a> to help us spread the "
+"word. Thank you from the Arnelio team!"
+msgstr ""
+"Por favor, valora %1s <a href=\"%2s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> en <a href=\"%3s\" "
+"target=\"_blank\" rel=\"noopener\">arnelio.com</a> para ayudarnos a correr "
+"la voz. ¡Gracias de parte del equipo Arnelio!"
+
+#: src/admin/cpt/alimentacion/data-alimentacion.php:40
+msgid "Pollo"
+msgstr "Pollo"
+
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:15
+msgid "Radio buttons inline"
+msgstr "Botones de radio en línea"
+
+#: src/admin/pages/plantilla/data-plantilla.php:15
+msgid "Real Madrid"
+msgstr "Real Madrid"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:323
+msgid "Reloj 1"
+msgstr "Reloj 1"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:341
+msgid "Reloj 2"
+msgstr "Reloj 2"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:181
+msgid "Remove cover image"
+msgstr "Eliminar la imagen de portada"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:293
+msgid "Reset done."
+msgstr "Reinicio realizado."
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:130
+#: src/admin/cpt/alimentacion/class-alimentacion.php:176
+#: blocks/src/blocks/tarots/translations.js:4
+msgid "Search"
+msgstr "Buscar en"
+
+#: blocks/src/blocks/tarots/translations.js:5
+msgid "Search for a tarot by title and insert it directly into the content."
+msgstr "Busca un tarot por título e insértalo directamente en el contenido."
+
+#: elementor/includes/widgets/shortcode_widget.php:147
+msgid "Search ID"
+msgstr "Buscar ID"
+
+#: elementor/includes/widgets/shortcode_widget.php:138
+msgid "Search tarot"
+msgstr "Buscar tarot"
+
+#: elementor/includes/widgets/shortcode_widget.php:136
+msgid "Search Text"
+msgstr "Buscar texto"
+
+#: src/admin/fields/image-wordpress/image-wordpress.php:57
+msgid "Seleccionar imagen"
+msgstr "Seleccionar imagen"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:180
+msgid "Set cover image"
+msgstr "Establecer imagen de portada"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:167
+msgctxt "Singular name"
+msgid "Alimento"
+msgstr "Alimento"
+
+#: src/admin/class-arnelioconnect-admin.php:124
+msgid "Something else here"
+msgstr "Algo más aquí"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:70
+msgid "Spreads"
+msgstr "Difunde"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:156
+#: src/admin/fields/compare-time-field/compare-time-field.php:168
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:165
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:182
+msgid "Start"
+msgstr "Inicio"
+
+#: src/admin/modules/all_offcanvas.php:172
+#| msgid "Unread"
+msgctxt "Status indicating messages or items that have not been read yet"
+msgid "Inbox"
+msgstr "Bandeja de entrada"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:103
+#: src/admin/fields/compare-time-field/compare-time-field.php:143
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:113
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:152
+msgid "Stop"
+msgstr "Stop"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:561
+msgid "Subir imagen"
+msgstr "Subir imagen"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:266
+msgid "SubTitle Color Pro"
+msgstr "Subtítulo Color Pro"
+
+#: includes/functions.php:47
+msgid "Support"
+msgstr "Ayuda"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:284
+msgid "Tamaño del contenedor"
+msgstr "Tamaño del contenedor"
+
+#: elementor/includes/widgets/shortcode_widget.php:38
+msgid "Tarokina"
+msgstr "Tarokina"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:128
+msgctxt "taxonomy general name"
+msgid "Categorias"
+msgstr "Categorías"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:222
+msgctxt "taxonomy general name"
+msgid "Etiquetas"
+msgstr "Etiquetas"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:129
+msgctxt "taxonomy singular name"
+msgid "Categoria"
+msgstr "Categoría"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:223
+msgctxt "taxonomy singular name"
+msgid "Etiqueta"
+msgstr "Etiqueta"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:53
+msgid "Tenistas"
+msgstr "Tenistas"
+
+#: src/admin/cpt/alimentacion/data-alimentacion.php:30
+msgid "Ternera"
+msgstr "Ternera"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:429
+#: src/admin/pages/plantilla/register/peliculas/accion.php:35
+msgid "Textarea"
+msgstr "Área de texto"
+
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3222
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3222
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3352
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3180
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3310
+#: src/admin/fields/compare-time-field/compare-time-field.js:114
+#: src/admin/fields/date-transient-admin/date-transient-admin.js:107
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2150
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2150
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2289
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2123
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2262
+msgid "The process could not be stopped."
+msgstr "El proceso no pudo detenerse."
+
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3237
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3237
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3319
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3195
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3277
+#: src/admin/fields/compare-time-field/compare-time-field.js:135
+#: src/admin/fields/date-transient-admin/date-transient-admin.js:68
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2171
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2171
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2250
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2144
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2223
+msgid "This action will stop the process."
+msgstr "Esta acción detendrá el proceso."
+
+#: src/admin/pages/plantilla/class-plantilla.php:230
+msgid "This is a test notice from plantilla desde el footer"
+msgstr "Este es un aviso de prueba de plantilla desde el footer"
+
+#: src/admin/cpt/alimentacion/register/congelados-croquetas.php:21
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:21
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:38
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:55
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:88
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:106
+#: src/admin/pages/dashboard/register/dashboard.php:21
+#: src/admin/pages/plantilla/register/futbol/celta.php:42
+#: src/admin/pages/plantilla/register/futbol/celta.php:59
+#: src/admin/pages/plantilla/register/futbol/celta.php:76
+#: src/admin/pages/plantilla/register/futbol/celta.php:108
+#: src/admin/pages/plantilla/register/futbol/celta.php:126
+#: src/admin/pages/plantilla/register/futbol/celta.php:144
+#: src/admin/pages/plantilla/register/futbol/celta.php:162
+#: src/admin/pages/plantilla/register/futbol/celta.php:329
+#: src/admin/pages/plantilla/register/futbol/celta.php:347
+#: src/admin/pages/plantilla/register/futbol/celta.php:367
+#: src/admin/pages/plantilla/register/futbol/celta.php:398
+#: src/admin/pages/plantilla/register/futbol/celta.php:416
+#: src/admin/pages/plantilla/register/futbol/celta.php:435
+#: src/admin/pages/plantilla/register/futbol/celta.php:454
+#: src/admin/pages/plantilla/register/futbol/celta.php:472
+#: src/admin/pages/plantilla/register/futbol/celta.php:490
+#: src/admin/pages/plantilla/register/futbol/celta.php:508
+#: src/admin/pages/plantilla/register/futbol/celta.php:526
+#: src/admin/pages/plantilla/register/futbol/celta.php:567
+#: src/admin/pages/plantilla/register/peliculas/accion.php:23
+#: src/admin/pages/plantilla/register/peliculas/accion.php:41
+#: src/admin/pages/plantilla/register/peliculas/accion.php:59
+#: src/admin/pages/plantilla/register/peliculas/accion.php:77
+#: src/admin/pages/plantilla/register/peliculas/accion.php:111
+#: src/admin/pages/plantilla/register/peliculas/accion.php:139
+#: src/admin/pages/plantilla/register/peliculas/accion.php:170
+#: src/admin/pages/plantilla/register/peliculas/accion.php:199
+#: src/admin/pages/plantilla/register/peliculas/accion.php:232
+msgid "This is the description of the user information field."
+msgstr "Esta es la descripción del campo de información del usuario."
+
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:82
+msgid "Tiempo"
+msgstr "Tiempo"
+
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:100
+msgid "Tiempo 2"
+msgstr "Tiempo 2"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:250
+msgid "Title Color Pro"
+msgstr "Título Color Pro"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:197
+msgid "Title field switch"
+msgstr "Cambio de campo de título"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:411
+msgid "Todas las categorias"
+msgstr "Todas las categorías"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:225
+msgid "Todas las Etiquetas"
+msgstr "Todas las Etiquetas"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:501
+msgid "Todas las etiquetas"
+msgstr "Todas las etiquetas"
+
+#: src/admin/class-arnelioconnect-admin.php:99
+msgid "Toggle navigation"
+msgstr "Alternar la navegación"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:363
+msgid "Título"
+msgstr "Título"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:133
+msgid "Updated Categoria"
+msgstr "Categoria Actualizada"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:185
+msgid "Uploaded to this alimentos"
+msgstr "Subido a este alimentos"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:182
+msgid "Use as cover image"
+msgstr "Utilizar como imagen de portada"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:174
+msgid "View Alimento"
+msgstr "Ver Alimento"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:540
+msgid "Volumen"
+msgstr "Volumen"
+
+#: src/admin/pages/plantilla/register/peliculas/accion.php:53
+msgid "Wp Editor"
+msgstr "Editor Wp"
+
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3196
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3196
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3323
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3154
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3281
+#: src/admin/fields/compare-time-field/compare-time-field.js:79
+#: src/admin/fields/date-transient-admin/date-transient-admin.js:72
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2115
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2115
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2254
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2088
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2227
+msgid "Yes"
+msgstr "Sí"

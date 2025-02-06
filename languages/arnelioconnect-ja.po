@@ -1,0 +1,806 @@
+# Copyright (C) 2024 arnelio
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: arnelioconnect 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/arnelioconnect\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-19T19:37:19+00:00\n"
+"PO-Revision-Date: 2025-01-16 08:01+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: arnelioconnect\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.6.14; wp-6.7.1"
+
+#: includes/functions.php:40
+msgid "__________ by the Arnelio team"
+msgstr "アルネリオ・チームによる"
+
+#: src/admin/pages/plantilla/data-plantilla.php:33
+msgid "Acción"
+msgstr "アクシオン"
+
+#: src/admin/class-arnelioconnect-admin.php:121
+msgid "Action"
+msgstr "アクション"
+
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:119
+msgid "Activar"
+msgstr "アクティバー"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:232
+msgid "Activar Extras"
+msgstr "アクティバー・エクストラ"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:215
+msgid "Activar modo Pro"
+msgstr "プロモード起動"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:227
+msgid "Actualizar Etiqueta"
+msgstr "カテゴリーの更新"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:169
+msgctxt "Add New on Toolbar"
+msgid "New Alimentos"
+msgstr "新アリメントス"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:228
+msgid "Agregar Nueva Etiqueta"
+msgstr "新しいカテゴリーを登録する"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:175
+#: src/admin/cpt/alimentacion/class-alimentacion.php:266
+#: src/admin/cpt/alimentacion/class-alimentacion.php:267
+msgid "Alimentos"
+msgstr "食品"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:183
+msgid "alimentos archives"
+msgstr "アリメントス・アーカイブス"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:188
+msgid "alimentos list"
+msgstr "食品リスト"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:187
+msgid "alimentos list navigation"
+msgstr "食品リストナビゲーション"
+
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3225
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3299
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3225
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3348
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3355
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3415
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3183
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3306
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3313
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3373
+#: src/admin/fields/compare-time-field/compare-time-field.js:121
+#: src/admin/fields/date-transient-admin/date-transient-admin.js:101
+#: src/admin/fields/date-transient-admin/date-transient-admin.js:115
+#: src/admin/fields/image-wordpress/image-wordpress.js:40
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2157
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2222
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2157
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2283
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2297
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2348
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2130
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2256
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2270
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2321
+msgid "An error occurred."
+msgstr "エラーが発生しました。"
+
+#: src/admin/class-arnelioconnect-admin.php:122
+msgid "Another action"
+msgstr "もうひとつのアクション"
+
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3236
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3236
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3318
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3194
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3276
+#: src/admin/fields/compare-time-field/compare-time-field.js:134
+#: src/admin/fields/date-transient-admin/date-transient-admin.js:67
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2170
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2170
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2249
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2143
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2222
+msgid "Are you sure?"
+msgstr "本当か？"
+
+#. Author of the plugin
+#: arnelioconnect.php
+msgid "arnelio"
+msgstr "アルネリオ"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:120
+msgid "Arroz con leche"
+msgstr "アロス・コン・レチェ"
+
+#: src/admin/pages/plantilla/data-plantilla.php:21
+msgid "Barcelona"
+msgstr "バルセロナ"
+
+#: blocks/src/blocks/curvy/block.json
+msgctxt "block description"
+msgid "Muestra un panel curvo con un título y un texto"
+msgstr "タイトルとテキストが表示されます。"
+
+#: blocks/src/blocks/curvy/block.json
+msgctxt "block title"
+msgid "Curvy"
+msgstr "カーヴィー"
+
+#: blocks/src/blocks/tarots/block.json
+msgctxt "block title"
+msgid "Tarokina"
+msgstr "タロキナ"
+
+#: elementor/includes/widgets/shortcode_widget.php:139
+msgid ""
+"Busca un tarot por su nombre e insertalo directamente en el contenido. "
+"Accede a la lista de lecturas de tarot desde este link. %1$s"
+msgstr "タロットの名前から検索して、直接コンテンツに入ることができます。このリンクからタロット占いのリストにアクセスしてください。%1$s"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:224
+msgid "Buscar Etiquetas"
+msgstr "カテゴリー検索"
+
+#: src/admin/cpt/alimentacion/data-alimentacion.php:27
+msgid "Carnes"
+msgstr "カーンズ"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:365
+msgid "categoria"
+msgstr "カテゴリー"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:136
+#: src/admin/cpt/alimentacion/class-alimentacion.php:296
+msgid "Categorias"
+msgstr "カテゴリー"
+
+#: src/admin/pages/plantilla/data-plantilla.php:9
+msgid "Celta"
+msgstr "セルタ"
+
+#: src/admin/cpt/alimentacion/data-alimentacion.php:35
+msgid "Cerdo"
+msgstr "チェルド"
+
+#: src/admin/pages/plantilla/data-plantilla.php:39
+msgid "Comedia"
+msgstr "コメディア"
+
+#: src/admin/cpt/alimentacion/data-alimentacion.php:5
+msgid "Congelados"
+msgstr "コンゲラードス"
+
+#: src/admin/cpt/alimentacion/data-alimentacion.php:14
+msgid "Croquetas"
+msgstr "クロケット"
+
+#: src/admin/cpt/alimentacion/register/congelados-croquetas.php:15
+#: src/admin/pages/dashboard/register/dashboard.php:15
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:448
+msgid "Custom Css"
+msgstr "カスタムCSS"
+
+#: src/admin/pages/dashboard/class-dashboard.php:109
+#: src/admin/pages/dashboard/data-dashboard.php:6
+#: src/admin/pages/dashboard/data-dashboard.php:9
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:520
+msgid "Date Comidas"
+msgstr "日付 コミダス"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:306
+msgid "Date Deporte"
+msgstr "日付 デポルテ"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:126
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:135
+msgid "Delete"
+msgstr "削除"
+
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:120
+msgid "Desactivar"
+msgstr "デサクティバル"
+
+#. Description of the plugin
+#: arnelioconnect.php
+msgid "Descripcion del plugin"
+msgstr "プラグインの説明"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:410
+msgid "Descripción Wp_editor"
+msgstr "Wp_editorの説明"
+
+#: includes/functions.php:54
+msgid "Docs"
+msgstr "資料"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:132
+msgid "Edit Categoria"
+msgstr "カテゴリーを編集する"
+
+#: elementor/includes/widgets/shortcode_widget.php:139
+msgid "Edit tarot"
+msgstr "タロットを編集する"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:226
+msgid "Editar Etiqueta"
+msgstr "タグの編集"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:189
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:203
+msgid "End"
+msgstr "終了"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:484
+msgid "Entrenadores"
+msgstr "アントレナドール"
+
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:32
+msgid "Espacio"
+msgstr "エスパシオ"
+
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:49
+msgid "Espacio 2"
+msgstr "エスパシオ2"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:230
+#: src/admin/cpt/alimentacion/class-alimentacion.php:315
+#: src/admin/cpt/alimentacion/class-alimentacion.php:371
+msgid "Etiquetas"
+msgstr "カテゴリー"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:462
+msgid "Etiquetas en %s"
+msgstr "のカテゴリ %s"
+
+#. Plugin Name of the plugin
+#: arnelioconnect.php src/admin/pages/dashboard/class-dashboard.php:92
+msgid "arnelioconnect"
+msgstr "フェルプラグイン"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:241
+#: src/admin/fields/compare-time-field/compare-time-field.php:247
+msgid "Field missing."
+msgstr "フィールドがない。"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:186
+msgid "Filter alimentos list"
+msgstr "食品リスト"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:117
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:127
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3241
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3241
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3199
+#: src/admin/fields/compare-time-field/compare-time-field.js:139
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2175
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2175
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2148
+msgid "Finished"
+msgstr "終了"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:138
+msgid "Flan"
+msgstr "フラン"
+
+#: includes/functions.php:60
+msgid "Free Plugins"
+msgstr "無料プラグイン"
+
+#: src/admin/pages/plantilla/data-plantilla.php:6
+msgid "Fútbol"
+msgstr "フットボール"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:166
+msgctxt "General name"
+msgid "Alimentos"
+msgstr "食品"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:502
+msgid "Helado"
+msgstr "ヘラド"
+
+#: src/admin/pages/plantilla/register/futbol/barsa.php:7
+msgid "Hello World"
+msgstr "ハロー・ワールド"
+
+#. Plugin URI of the plugin
+#: arnelioconnect.php
+msgid "https://arnelio.com"
+msgstr "https://arnelio.com"
+
+#. Author URI of the plugin
+#: arnelioconnect.php
+msgid "https://arnelio.com/"
+msgstr "https://arnelio.com/"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:179
+msgid "Image Alimento"
+msgstr "イメージ・アリメント"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:361
+msgid "Image upload"
+msgstr "画像アップロード"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:184
+msgid "Insert into alimentos"
+msgstr "食品に入れる"
+
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3242
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3242
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3200
+#: src/admin/fields/compare-time-field/compare-time-field.js:140
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2176
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2176
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2149
+msgid "Insert new date."
+msgstr "新しい日付を入れる。"
+
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3216
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3216
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3174
+#: src/admin/fields/compare-time-field/compare-time-field.js:104
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2140
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2140
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2113
+msgid "Invalid JSON response"
+msgstr "無効なJSON応答"
+
+#: elementor/includes/widgets/shortcode_widget.php:127
+msgid "Isert tarot"
+msgstr "イサール・タロット"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:102
+msgid "Jugadores"
+msgstr "ジュガドール"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:107
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:117
+msgid "Loading..."
+msgstr "読み込み中..."
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:203
+#: src/admin/pages/plantilla/register/futbol/celta.php:221
+#: src/admin/pages/plantilla/register/futbol/celta.php:238
+#: src/admin/pages/plantilla/register/futbol/celta.php:256
+#: src/admin/pages/plantilla/register/futbol/celta.php:272
+#: src/admin/pages/plantilla/register/futbol/celta.php:293
+#: src/admin/pages/plantilla/register/futbol/celta.php:312
+#: src/admin/pages/plantilla/register/futbol/celta.php:549
+msgid ""
+"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, "
+"molestias nobis, qui illo est nesciunt quod cum consequuntur eos quia "
+"adipisci."
+msgstr "このような場合、そのようなことをする必要があります。必要なことは、そのようなことをすることである。"
+
+#: src/admin/cpt/alimentacion/data-alimentacion.php:8
+msgid "Merluza"
+msgstr "メルルーサ"
+
+#: src/admin/pages/plantilla/register/peliculas/accion.php:71
+msgid "Multi lenguaje"
+msgstr "多言語"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:170
+#: src/admin/cpt/alimentacion/class-alimentacion.php:172
+msgid "New Alimento"
+msgstr "ニューアリメント"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:134
+#: src/admin/cpt/alimentacion/class-alimentacion.php:135
+msgid "New Categoria"
+msgstr "新しいカテゴリー"
+
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3197
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3197
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3324
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3155
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3282
+#: src/admin/fields/compare-time-field/compare-time-field.js:80
+#: src/admin/fields/date-transient-admin/date-transient-admin.js:73
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2116
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2116
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2255
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2089
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2228
+msgid "No"
+msgstr "いいえ"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:178
+msgid "No Alimentos found in Trash."
+msgstr "ゴミ箱にアリメントスは見当たらない。"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:177
+msgid "No Alimentos found."
+msgstr "アリメントスが見つからない。"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:137
+msgid "No categorias found"
+msgstr "カテゴリが見つかりません"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:487
+msgid "No hay contenido en %s"
+msgstr "にコンテンツはありません。%s"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:513
+msgid "No hay etiquetas disponibles"
+msgstr "タグはありません。"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:479
+msgid "No hay etiquetas en %s"
+msgstr "にタグはありません。%s"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:235
+msgid "No permissions."
+msgstr "許可はない。"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:231
+msgid "No se encontraron etiquetas"
+msgstr "エチケットなし"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:392
+#: src/admin/pages/plantilla/register/peliculas/accion.php:17
+msgid "Nombre"
+msgstr "氏名"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:229
+msgid "Nueva Etiqueta"
+msgstr "新しいカテゴリー"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:466
+msgid "Number"
+msgstr "番号"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:134
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:143
+msgid "On standby"
+msgstr "待機中"
+
+#: src/admin/modules/all_offcanvas.php:177
+#| msgid "Read"
+msgctxt "Past tense - indicating something has been read"
+msgid "Articles read"
+msgstr "読まれた記事"
+
+#: src/admin/pages/plantilla/data-plantilla.php:30
+msgid "Películas"
+msgstr "映画"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:36
+msgid "Pilotos de la Fórmula 1"
+msgstr "フォーミュラ1パイロット"
+
+#: src/admin/cpt/alimentacion/data-alimentacion.php:19
+msgid "Pizza"
+msgstr "ピザ"
+
+#: src/admin/pages/plantilla/class-plantilla.php:87
+msgid "plantilla"
+msgstr "アキラヤ"
+
+#: src/admin/class-arnelioconnect-admin.php:238
+#| msgid ""
+#| "Please rate %1$s <a href=\"%2$s\" target=\"_blank\" rel=\"noopener "
+#| "noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%3$s\" "
+#| "target=\"_blank\" rel=\"noopener\">arnelio.com</a> to help us spread the "
+#| "word. Thank you from the Arnelio team!"
+msgid ""
+"Please rate %1s <a href=\"%2s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%3s\" "
+"target=\"_blank\" rel=\"noopener\">arnelio.com</a> to help us spread the "
+"word. Thank you from the Arnelio team!"
+msgstr ""
+"%1s <a href=\"%2s\" target=\"_blank\" rel=\"noopener noreferrer\">&#9733;"
+"&#9733;&#9733;&#9733;</a> を評価し、<a href=\"%3s\" target=\"_blank\" "
+"rel=\"noopener\">arnelio.com</a> を広めてください。アルネリオ・チームよりお礼申し上げます！"
+
+#: src/admin/cpt/alimentacion/data-alimentacion.php:40
+msgid "Pollo"
+msgstr "ポロ"
+
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:15
+msgid "Radio buttons inline"
+msgstr "インラインのラジオボタン"
+
+#: src/admin/pages/plantilla/data-plantilla.php:15
+msgid "Real Madrid"
+msgstr "レアル・マドリード"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:323
+msgid "Reloj 1"
+msgstr "リロージュ1"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:341
+msgid "Reloj 2"
+msgstr "リロージュ2"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:181
+msgid "Remove cover image"
+msgstr "カバー画像を削除する"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:293
+msgid "Reset done."
+msgstr "リセット完了。"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:130
+#: src/admin/cpt/alimentacion/class-alimentacion.php:176
+#: blocks/src/blocks/tarots/translations.js:4
+msgid "Search"
+msgstr "検索"
+
+#: blocks/src/blocks/tarots/translations.js:5
+msgid "Search for a tarot by title and insert it directly into the content."
+msgstr "タイトルでタロットを検索し、コンテンツに直接挿入します。"
+
+#: elementor/includes/widgets/shortcode_widget.php:147
+msgid "Search ID"
+msgstr "検索ID"
+
+#: elementor/includes/widgets/shortcode_widget.php:138
+msgid "Search tarot"
+msgstr "タロットを検索"
+
+#: elementor/includes/widgets/shortcode_widget.php:136
+msgid "Search Text"
+msgstr "検索テキスト"
+
+#: src/admin/fields/image-wordpress/image-wordpress.php:57
+msgid "Seleccionar imagen"
+msgstr "画像を選択"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:180
+msgid "Set cover image"
+msgstr "カバー画像を設定する"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:167
+msgctxt "Singular name"
+msgid "Alimento"
+msgstr "アリメント"
+
+#: src/admin/class-arnelioconnect-admin.php:124
+msgid "Something else here"
+msgstr "他にもある"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:70
+msgid "Spreads"
+msgstr "スプレッド"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:156
+#: src/admin/fields/compare-time-field/compare-time-field.php:168
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:165
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:182
+msgid "Start"
+msgstr "スタート"
+
+#: src/admin/modules/all_offcanvas.php:172
+#| msgid "Unread"
+msgctxt "Status indicating messages or items that have not been read yet"
+msgid "Inbox"
+msgstr "受信箱"
+
+#: src/admin/fields/compare-time-field/compare-time-field.php:103
+#: src/admin/fields/compare-time-field/compare-time-field.php:143
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:113
+#: src/admin/fields/date-transient-admin/date-transient-admin.php:152
+msgid "Stop"
+msgstr "ストップ"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:561
+msgid "Subir imagen"
+msgstr "画像を保存"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:266
+msgid "SubTitle Color Pro"
+msgstr "サブタイトル カラープロ"
+
+#: includes/functions.php:47
+msgid "Support"
+msgstr "サポート"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:284
+msgid "Tamaño del contenedor"
+msgstr "容器サイズ"
+
+#: elementor/includes/widgets/shortcode_widget.php:38
+msgid "Tarokina"
+msgstr "タロキナ"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:128
+msgctxt "taxonomy general name"
+msgid "Categorias"
+msgstr "カテゴリー"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:222
+msgctxt "taxonomy general name"
+msgid "Etiquetas"
+msgstr "カテゴリー"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:129
+msgctxt "taxonomy singular name"
+msgid "Categoria"
+msgstr "カテゴリー"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:223
+msgctxt "taxonomy singular name"
+msgid "Etiqueta"
+msgstr "カテゴリー"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:53
+msgid "Tenistas"
+msgstr "テニスタ"
+
+#: src/admin/cpt/alimentacion/data-alimentacion.php:30
+msgid "Ternera"
+msgstr "テルネラ"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:429
+#: src/admin/pages/plantilla/register/peliculas/accion.php:35
+msgid "Textarea"
+msgstr "テキストエリア"
+
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3222
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3222
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3352
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3180
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3310
+#: src/admin/fields/compare-time-field/compare-time-field.js:114
+#: src/admin/fields/date-transient-admin/date-transient-admin.js:107
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2150
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2150
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2289
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2123
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2262
+msgid "The process could not be stopped."
+msgstr "そのプロセスを止めることはできなかった。"
+
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3237
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3237
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3319
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3195
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3277
+#: src/admin/fields/compare-time-field/compare-time-field.js:135
+#: src/admin/fields/date-transient-admin/date-transient-admin.js:68
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2171
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2171
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2250
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2144
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2223
+msgid "This action will stop the process."
+msgstr "この操作はプロセスを停止させる。"
+
+#: src/admin/pages/plantilla/class-plantilla.php:230
+msgid "This is a test notice from plantilla desde el footer"
+msgstr "これは、フッターに表示されるplantillaからのテスト通知です。"
+
+#: src/admin/cpt/alimentacion/register/congelados-croquetas.php:21
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:21
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:38
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:55
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:88
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:106
+#: src/admin/pages/dashboard/register/dashboard.php:21
+#: src/admin/pages/plantilla/register/futbol/celta.php:42
+#: src/admin/pages/plantilla/register/futbol/celta.php:59
+#: src/admin/pages/plantilla/register/futbol/celta.php:76
+#: src/admin/pages/plantilla/register/futbol/celta.php:108
+#: src/admin/pages/plantilla/register/futbol/celta.php:126
+#: src/admin/pages/plantilla/register/futbol/celta.php:144
+#: src/admin/pages/plantilla/register/futbol/celta.php:162
+#: src/admin/pages/plantilla/register/futbol/celta.php:329
+#: src/admin/pages/plantilla/register/futbol/celta.php:347
+#: src/admin/pages/plantilla/register/futbol/celta.php:367
+#: src/admin/pages/plantilla/register/futbol/celta.php:398
+#: src/admin/pages/plantilla/register/futbol/celta.php:416
+#: src/admin/pages/plantilla/register/futbol/celta.php:435
+#: src/admin/pages/plantilla/register/futbol/celta.php:454
+#: src/admin/pages/plantilla/register/futbol/celta.php:472
+#: src/admin/pages/plantilla/register/futbol/celta.php:490
+#: src/admin/pages/plantilla/register/futbol/celta.php:508
+#: src/admin/pages/plantilla/register/futbol/celta.php:526
+#: src/admin/pages/plantilla/register/futbol/celta.php:567
+#: src/admin/pages/plantilla/register/peliculas/accion.php:23
+#: src/admin/pages/plantilla/register/peliculas/accion.php:41
+#: src/admin/pages/plantilla/register/peliculas/accion.php:59
+#: src/admin/pages/plantilla/register/peliculas/accion.php:77
+#: src/admin/pages/plantilla/register/peliculas/accion.php:111
+#: src/admin/pages/plantilla/register/peliculas/accion.php:139
+#: src/admin/pages/plantilla/register/peliculas/accion.php:170
+#: src/admin/pages/plantilla/register/peliculas/accion.php:199
+#: src/admin/pages/plantilla/register/peliculas/accion.php:232
+msgid "This is the description of the user information field."
+msgstr "これはユーザー情報フィールドの説明である。"
+
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:82
+msgid "Tiempo"
+msgstr "ティエンポ"
+
+#: src/admin/cpt/alimentacion/register/congelados-merluza.php:100
+msgid "Tiempo 2"
+msgstr "ティエンポ2"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:250
+msgid "Title Color Pro"
+msgstr "タイトル・カラー・プロ"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:197
+msgid "Title field switch"
+msgstr "タイトル欄の切り替え"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:411
+msgid "Todas las categorias"
+msgstr "すべてのカテゴリー"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:225
+msgid "Todas las Etiquetas"
+msgstr "すべてのカテゴリー"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:501
+msgid "Todas las etiquetas"
+msgstr "すべてのカテゴリー"
+
+#: src/admin/class-arnelioconnect-admin.php:99
+msgid "Toggle navigation"
+msgstr "トグル・ナビゲーション"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:363
+msgid "Título"
+msgstr "タイトル"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:133
+msgid "Updated Categoria"
+msgstr "更新されたカテゴリー"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:185
+msgid "Uploaded to this alimentos"
+msgstr "このalimentosにアップロード"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:182
+msgid "Use as cover image"
+msgstr "カバー画像として使用"
+
+#: src/admin/cpt/alimentacion/class-alimentacion.php:174
+msgid "View Alimento"
+msgstr "アリメントを見る"
+
+#: src/admin/pages/plantilla/register/futbol/celta.php:540
+msgid "Volumen"
+msgstr "ボリューム"
+
+#: src/admin/pages/plantilla/register/peliculas/accion.php:53
+msgid "Wp Editor"
+msgstr "Wpエディタ"
+
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:3196
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3196
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:3323
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3154
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:3281
+#: src/admin/fields/compare-time-field/compare-time-field.js:79
+#: src/admin/fields/date-transient-admin/date-transient-admin.js:72
+#: dist/admin/js/scfs_arnelioconnect_alimentacion_item.js:2115
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2115
+#: dist/admin/js/scfs_arnelioconnect_dashboard.js:2254
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2088
+#: dist/admin/js/scfs_arnelioconnect_plantilla.js:2227
+msgid "Yes"
+msgstr "はい"

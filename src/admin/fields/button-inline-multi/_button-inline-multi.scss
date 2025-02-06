@@ -1,0 +1,89 @@
+#wpbody-content {
+  .layo-arnelio_section {
+    .layo-arnelio_section__body {
+      .layo-field {
+        .field-arnelio-checkbox-btn-multi {
+          .form-check {
+            margin: 0 0.4rem 0 0;
+            padding: 0;
+            .form-check-input {
+              display: none;
+            }
+            .btn-outline-primary {
+              font-size: $field-font-size;
+              color: var(--bs-body-color);
+              margin-bottom: 0.6rem;
+              &.active {
+                font-weight: 700;
+              }
+            }
+          }
+          .form-text {
+            margin-top: 0.25rem !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+#wpbody-content {
+  .layo-arnelio_section {
+    /////////////////////////////  Box default /////////////////////////////
+    .text-bg-default {
+      .layo-arnelio_section__body {
+        .field-arnelio-checkbox-btn-multi {
+          .btn-outline-primary {
+            //background-color: #fff !important;
+            border: none !important;
+            &.active {
+              background-color: rgba($primary, 0.2) !important;
+              color: rgba(var(--bs-link-color-rgb));
+            }
+            &:hover {
+              background-color: rgba($primary, 0.2) !important;
+              color: rgba(var(--bs-link-color-rgb));
+            }
+          }
+        }
+      }
+    }
+
+    /////////////////////////////  Box primary /////////////////////////////
+    .text-bg-primary {
+      .layo-arnelio_section__body {
+        .field-arnelio-checkbox-btn-multi {
+          .btn-outline-primary {
+            border: none;
+            color: var(--bs-btn-active-color) !important;
+            &.active,
+            &:hover {
+              color: var(--bs-btn-active-color);
+              background-color: rgba($primary, 0.5);
+              outline: 3px solid rgba(#ffffff, 0.5) !important;
+            }
+          }
+        }
+      }
+    }
+
+    /////////////////////////////  Box secondary /////////////////////////////
+
+    .text-bg-secondary {
+      .layo-arnelio_section__body {
+        .field-arnelio-checkbox-btn-multi {
+          .btn-outline-primary {
+            border: none;
+            color: var(--bs-btn-active-color) !important;
+            &.active,
+            &:hover {
+              color: var(--bs-btn-active-color);
+              background-color: rgba($primary, 0.5);
+              outline: 3px solid rgba(#ffffff, 0.5) !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+@import "~bootstrap/scss/mixins/banner";
+@include bsBanner("");
+
+// scss-docs-start import-stack
+// Configuration
+@import "~bootstrap/scss/functions";
+
+// Custom Variables
+@import "src/admin/scss/_variables_all.scss";
+
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/variables-dark";
+
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+
+// Layout & components
+@import url("bootstrap-icons/font/bootstrap-icons.css"); // icons
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/containers";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+
+.post-php.post-type-alimentacion, .post-new-php.post-type-alimentacion{
+  #wpbody-content {
+    @import "~bootstrap/scss/forms";
+  }
+}
+@import "~bootstrap/scss/accordion";
+@import "~bootstrap/scss/alert";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/breadcrumb";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/carousel";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/dropdown";
+// @import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/offcanvas";
+@import "~bootstrap/scss/pagination";
+@import "~bootstrap/scss/placeholders";
+@import "~bootstrap/scss/popover";
+@import "~bootstrap/scss/progress";
+@import "~bootstrap/scss/spinners";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/toasts";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/transitions";
+
+// helpers
+@import "~bootstrap/scss/helpers";
+
+// Utilities
+@import "~bootstrap/scss/utilities/api";
+
+
+
+// Fields
+@import "../fields/button-inline/button-inline";
+@import "../fields/button-inline-multi/button-inline-multi";
+@import "../fields/checkbox/checkbox";
+@import "../fields/checkbox-multi/checkbox-multi";
+@import "../fields/color/color";
+@import "../fields/compare-time-field/compare-time-field.scss";
+@import "../fields/image-wordpress/image-wordpress";
+@import "../fields/image-radio/image-radio";
+@import "../fields/number/number";
+@import "../fields/radio-inline/radio-inline";
+@import "../fields/range/range";
+@import "../fields/select/select";
+@import "../fields/select-multi/select-multi";
+@import "../fields/switch/switch";
+@import "../fields/text/text";
+@import "../fields/textarea/textarea";
+@import "../fields/wp_editor/wp_editor";
+@import "../fields/button-toggle/button-toggle";
+
+
+///////////////////////////////   CUSTOM CSS   ///////////////////////////////
+@import "all";
+@import "custom_post_type";
+
+.wrap{
+  margin: 1.5rem 1rem !important;
+}
+
+// ANCHO DE LA PÁGINA - Defaul 1320px
+.container-page-arnelio{
+  max-width: 1320px;
+}
+
+
+
+
+///////////////////////////////   CUSTOM CSS RTL   ///////////////////////////////
+// html[dir="rtl"] {
+
+
+
+
+// }

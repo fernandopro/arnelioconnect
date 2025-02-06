@@ -1,0 +1,137 @@
+.wp-picker-container {
+  .button.wp-color-result {
+    border: 2px solid var(--bs-border-color);
+    border-radius: 2px;
+    @media (max-width: 782px) {
+      padding: 0 0 0 30px;
+    }
+  }
+  .wp-color-result-text {
+    border-radius: 0;
+  }
+  .color-alpha {
+    margin-left: 0;
+    border-radius: 0 !important;
+  }
+}
+
+#wpbody-content {
+  .layo-arnelio_section {
+    .layo-arnelio_section__body {
+      .layo-field {
+        .field-arnelio-color {
+          position: relative;
+          padding: 0;
+          .field-arnelio-color-content {
+            margin-right: 10%;
+          }
+          .wp-picker-container {
+            margin-right: 8px;
+          }
+          .wp-picker-active {
+            position: absolute;
+            right: 0;
+            background: #fff;
+            padding: 20px;
+            border-radius: 6px;
+            box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.08);
+            z-index: 999999;
+            .wp-color-result-text {
+              background-color: #f0f0f1 !important;
+              border-color: #f0f0f1 !important;
+              color: #000 !important;
+            }
+            .wp-color-result {
+              border-color: var(--bs-border-color) !important;
+            }
+            .button:focus {
+              color: transparent !important;
+              box-shadow: none !important;
+            }
+          }
+        }
+      }
+      .layo-field-bg {
+        .field-arnelio-color {
+          .wp-picker-container {
+            margin-right: -5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+#wpbody-content {
+  .layo-arnelio_section {
+    /////////////////////////////  Box default /////////////////////////////
+    .text-bg-default {
+      .layo-arnelio_section__body {
+        .field-arnelio-color {
+          .form-check-label {
+            color: var(--bs-secondary-color);
+            h4 {
+              color: var(--bs-body-color);
+            }
+          }
+        }
+      }
+    }
+
+    /////////////////////////////  Box primary /////////////////////////////
+    .text-bg-primary {
+      .layo-arnelio_section__body {
+        .field-arnelio-color {
+          .field-arnelio-color-content {
+            .form-check-label {
+              opacity: 0.7;
+            }
+          }
+          .wp-picker-container {
+            .wp-color-result-text {
+              background-color: shade-color($primary, 8%);
+              border-color: tint-color($primary, 8%);
+              color: #ffffff;
+            }
+            .wp-color-result {
+              border-color: tint-color($primary, 8%);
+            }
+          }
+        }
+      }
+    }
+
+    /////////////////////////////  Box secondary /////////////////////////////
+
+    .text-bg-secondary {
+      .layo-arnelio_section__body {
+        .field-arnelio-color {
+          .field-arnelio-color-content {
+            .form-check-label {
+              opacity: 0.7;
+            }
+          }
+          .wp-picker-container {
+            .wp-color-result-text {
+              background-color: shade-color($secondary, 8%);
+              border-color: tint-color($secondary, 8%);
+              color: #ffffff;
+            }
+            .wp-color-result {
+              border-color: tint-color($secondary, 8%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+///////////////////////////////   CUSTOM CSS RTL   ///////////////////////////////
+html[dir="rtl"] {
+  .wp-picker-container {
+    .color-alpha {
+      margin-left: 0 !important;
+    }
+  }
+}

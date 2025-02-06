@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>8cards1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="8cards1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="600" height="600"></rect>
+        <text id="8" font-family="Helvetica-Bold, Helvetica" font-size="180" font-weight="bold" fill="#C0C0C0">
+            <tspan x="66.9462891" y="588">8</tspan>
+        </text>
+        <g id="Card" transform="translate(263.000000, 56.000000)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="101" rx="8"></rect>
+        </g>
+        <g id="Card" transform="translate(187.000000, 115.000000)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="101" rx="8"></rect>
+        </g>
+        <g id="Card" transform="translate(117.000000, 176.000000)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="101" rx="8"></rect>
+        </g>
+        <g id="Card" transform="translate(194.932504, 245.932504) rotate(45.000000) translate(-194.932504, -245.932504) translate(159.932504, 191.932504)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="101" rx="8"></rect>
+        </g>
+        <g id="Card" transform="translate(264.000000, 176.000000)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="101" rx="8"></rect>
+        </g>
+        <g id="Card" transform="translate(342.000000, 115.000000)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="101" rx="8"></rect>
+        </g>
+        <g id="Card" transform="translate(412.000000, 176.000000)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="101" rx="8"></rect>
+        </g>
+        <g id="Card" transform="translate(405.932504, 245.932504) rotate(-45.000000) translate(-405.932504, -245.932504) translate(370.932504, 191.932504)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="101" rx="8"></rect>
+        </g>
+    </g>
+</svg>

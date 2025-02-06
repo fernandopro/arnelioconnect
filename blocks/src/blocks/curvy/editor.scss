@@ -1,0 +1,33 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-tarokina-curvy {
+
+}
+
+.topCurveLabel, .enableSelectTarot{
+	display: flex;
+}
+
+
+.select-tarot-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.select-tarot-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.select-tarot-container .components-base-control__field {
+    margin-top: 0;
+}

@@ -1,0 +1,51 @@
+#wpbody-content {
+  input[type="text"],
+  input[type="search"],
+  select,
+  textarea {
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+  }
+}
+
+input[type="radio"]:checked::before {
+  background-color: transparent;
+}
+
+input[type="checkbox"]:checked::before {
+  content: "";
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  min-width: initial !important;
+}
+
+input[type="checkbox"],
+input[type="color"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="datetime"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="radio"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select,
+textarea,
+select {
+  &:focus {
+    border-color: var(--bs-primary-border-subtle);
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.25rem var(--bs-primary-border-subtle);
+    box-shadow: 0 0 0 0.25rem var(--bs-primary-border-subtle);
+  }
+}

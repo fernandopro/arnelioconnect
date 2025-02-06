@@ -1,0 +1,245 @@
+// Accordion
+.nav-arnelio {
+  & > .nav-item {
+    margin: 0;
+    & > .nav-link {
+      color: rgba(#000, 0.65);
+      padding: 1rem 0;
+      margin: 0 1rem;
+      &.active {
+        color: rgba(var(--bs-link-color-rgb));
+        font-weight: 700;
+        border-bottom: 2px solid $primary;
+      }
+      &:hover {
+        color: rgba(var(--bs-link-color-rgb));
+        border-bottom: 2px solid $primary;
+      }
+    }
+  }
+}
+.accordion-arnelio {
+  & > .accordion-item {
+    border-radius: $border-radius;
+    &:first-child {
+      margin: 0;
+    }
+    //box-shadow: 0 0.0625rem 0.3175rem rgba(34, 48, 62, 0.059);
+    margin: 1.5rem 0;
+    background-color: transparent;
+    border: none;
+
+    // &:not(:first-of-type) {
+    //   //border-top: 1px solid var(--bs-accordion-border-color);
+    // }
+
+    & > .accordion-header {
+      border-radius: $border-radius;
+      & > .accordion-button {
+        border-radius: $border-radius !important;
+        font-size: $h1-font-size;
+        font-weight: 700;
+        box-shadow: 0 0.0625rem 0.3175rem rgba(34, 48, 62, 0.059);
+        border-bottom: 1px solid #dee2e6;
+        // background: transparent;
+        // padding: 20px 10px;
+        &:not(.collapsed) {
+          color: var(--bs-accordion-btn-color);
+          background-color: transparent;
+          box-shadow: none;
+          border: none;
+          // &:hover {
+          //   box-shadow: 0 0 0 0.02rem $primary;
+          // }
+        }
+      }
+    }
+
+    .accordion-body {
+      padding: 0;
+    }
+
+    .fixed-header-arnelio {
+      display: block !important;
+      pointer-events: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+      border: none !important;
+    }
+    .fixed-body-arnelio {
+      display: block !important;
+    }
+    .hidden-header-arnelio {
+      display: none !important;
+    }
+    &.hidden-background-arnelio {
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+
+
+  .accordion-button {
+    &:focus {
+      box-shadow: none;
+      outline: 0 !important;
+    }
+  }
+
+  .accordeon-subarnelio {
+    .accordion-item {
+      .accordion-header {
+        .accordion-button {
+          &:not(.collapsed) {
+            color: var(--bs-accordion-btn-color);
+            background-color: transparent;
+            box-shadow: none;
+            border: none;
+          }
+        }
+      }
+      .accordion-body {
+        padding: var(--bs-accordion-body-padding-y)
+          var(--bs-accordion-body-padding-x);
+      }
+    }
+  }
+}
+
+.nomenu-arnelio {
+  display: none;
+}
+
+
+
+//////////// Diferentes Box //////////////
+///
+#wpbody-content {
+    .layo-arnelio_section {
+      /////////////////////////////  Box default /////////////////////////////
+      .text-bg-default {
+        .layo-arnelio_section__header {
+          background-color: #ffffff;
+        }
+        .layo-arnelio_section__body {
+          .layo-field-bg {
+            background-color: RGBA(var(--bs-light-rgb), var(--bs-bg-opacity, 1));
+          }
+          p {
+            color: var(--bs-secondary-color);
+          }
+        }
+      }
+      /////////////////////////////  Box primary /////////////////////////////
+      .text-bg-primary {
+        .layo-arnelio_section__body {
+          .layo-field-bg {
+            background: rgba(#000000, 0.1) !important;
+          }
+          p {
+            color: #ffffff !important;
+            opacity: 0.7;
+          }
+          .form-text {
+            color: #ffffff !important;
+            opacity: 0.7;
+          }
+        }
+      }
+      /////////////////////////////  Box secondary /////////////////////////////
+      .text-bg-secondary {
+        .layo-arnelio_section__body {
+          .layo-field-bg {
+            background: rgba(#000000, 0.08) !important;
+          }
+          .form-text {
+            color: #ffffff !important;
+            opacity: 0.7;
+          }
+        }
+      }
+    } // end layo-arnelio_section
+  }
+  
+  ///////////////////////////// All Layo arnelio  ///////////////////////////////////
+  ///
+  #wpbody-content {
+    .layo-arnelio_section {
+      font-weight: 400;
+      .layo-arnelio_section__header {
+        // background-color: var(--bs-tertiary-bg);
+        border-radius: $border-radius $border-radius 0 0;
+        min-height: 57px;
+        display: flex;
+        align-items: center;
+        .bi {
+          margin-right: 8px;
+        }
+        h3 {
+          margin-bottom: 0;
+        }
+      }
+      // All fields in section body
+      .layo-arnelio_section__body {
+        min-height: 57px;
+        h4 {
+          font-size: $field-h4-size;
+          margin-bottom: $font-size-base;
+        }
+        .layo-field {
+          position: relative;
+          border-radius: $border-radius;
+          padding: 16px 0;
+          &.border-bottom {
+            border-radius: 0;
+            padding-bottom: 2rem !important;
+            border-bottom-color: rgba(0, 0, 0, 0.12) !important;
+          }
+          .link-docu-field {
+            position: relative;
+            line-height: 0;
+            top: 2px;
+            left: 8px;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            .bi {
+              font-size: 1.1rem;
+              color: var(--bs-info-border-subtle);
+              &:hover {
+                color: var(--bs-info);
+              }
+            }
+          }
+          &:hover {
+            .link-docu-field {
+              opacity: 1;
+            }
+          }
+          .link-docu-wrapper {
+            display: flex;
+            align-items: baseline;
+            h4 {
+              min-height: 20px;
+            }
+          }
+        }
+        ///// Layout Field Background /////
+        .layo-field-bg {
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+        .form-label {
+          font-weight: 500;
+          margin-bottom: $font-size-base;
+        }
+        .form-text {
+          margin-top: $font-size-base;
+          color: var(--bs-tertiary-color);
+        }
+        .form-check {
+          font-size: $field-font-size;
+        }
+      }
+    }
+  }
+  

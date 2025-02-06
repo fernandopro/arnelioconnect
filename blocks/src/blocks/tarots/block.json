@@ -1,0 +1,35 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "tarokina/tarots",
+	"version": "0.1.0",
+	"title": "Tarokina",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "",
+	"example": {},
+	"supports": {
+		"className": false,
+		"customClassName": false,
+		"html": false
+	},
+	"attributes": {
+		"selectedTarot": {
+            "type": "string",
+            "default": ""
+        },
+        "idTarot": {
+            "type": "number",
+            "default": 0
+        },
+        "slugTarot": {
+            "type": "string",
+            "default": ""
+        }
+	},
+	"textdomain": "arnelioconnect",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>10cards2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="10cards2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="600" height="600"></rect>
+        <text id="10" font-family="Helvetica-Bold, Helvetica" font-size="180" font-weight="bold" fill="#C0C0C0">
+            <tspan x="16.8925781" y="588">10</tspan>
+        </text>
+        <g id="Card" transform="translate(265.000000, 64.000000)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="89" rx="8"></rect>
+        </g>
+        <g id="Card" transform="translate(197.000000, 192.000000) rotate(-30.000000) translate(-197.000000, -192.000000) translate(162.000000, 144.000000)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="89" rx="8"></rect>
+        </g>
+        <g id="Card" transform="translate(403.000000, 192.000000) rotate(30.000000) translate(-403.000000, -192.000000) translate(368.000000, 144.000000)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="89" rx="8"></rect>
+        </g>
+        <g id="Card" transform="translate(265.000000, 165.000000)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="89" rx="8"></rect>
+        </g>
+        <g id="Card" transform="translate(300.000000, 213.000000) rotate(90.000000) translate(-300.000000, -213.000000) translate(265.000000, 165.000000)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="89" rx="8"></rect>
+        </g>
+        <g id="Card" transform="translate(214.000000, 84.000000) rotate(-30.000000) translate(-214.000000, -84.000000) translate(179.000000, 36.000000)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="89" rx="8"></rect>
+        </g>
+        <g id="Card" transform="translate(390.000000, 84.000000) rotate(30.000000) translate(-390.000000, -84.000000) translate(355.000000, 36.000000)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="89" rx="8"></rect>
+        </g>
+        <g id="Card" transform="translate(265.000000, 266.000000)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="89" rx="8"></rect>
+        </g>
+        <g id="Card" transform="translate(210.000000, 300.000000) rotate(-30.000000) translate(-210.000000, -300.000000) translate(175.000000, 252.000000)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="89" rx="8"></rect>
+        </g>
+        <g id="Card" transform="translate(390.000000, 300.000000) rotate(30.000000) translate(-390.000000, -300.000000) translate(355.000000, 252.000000)" fill="#353535" stroke="#F7F7F7" stroke-width="5">
+            <rect id="CARD" x="5.5" y="3.5" width="60" height="89" rx="8"></rect>
+        </g>
+    </g>
+</svg>
