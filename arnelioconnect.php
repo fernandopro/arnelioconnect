@@ -5,7 +5,7 @@
  * Plugin Name:       arnelioconnect
  * Plugin URI:        https://arnelio.com
  * Description:       Descripcion del plugin
- * Version:           1.0.0
+ * Version:           1.1
  * Author:            arnelio
  * Author URI:        https://arnelio.com/
  * License:           GPL-2.0+
@@ -36,7 +36,7 @@ if ( ! defined( 'WPINC' ) ) {
  * 
  * arnelio                Nombre de la empresa
  */
-define( 'ARNELIOCONNECT_VERSION', '1.0.0' );
+define( 'ARNELIOCONNECT_VERSION', '1.1' );
 
 
  //Nombre de la página principal del menú
