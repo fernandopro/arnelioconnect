@@ -38,8 +38,8 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 delete_option( ARNELIOCONNECT_MENU_URL . '_options' );
 
 // 2. (Opcional) Eliminar otras opciones relacionadas utilizando un prefijo en el nombre.
-// global $wpdb;
-// $wpdb->query( "DELETE FROM {$wpdb->options} WHERE option_name LIKE 'scfs_arnelioconnect%'" );
+global $wpdb;
+$wpdb->query( "DELETE FROM {$wpdb->options} WHERE option_name LIKE 'scfs_arnelioconnect%'" );
 
 // 3. Eliminar todos los posts del custom post type "alimentacion".
 $alimentacion_posts = get_posts( array(
