@@ -1,0 +1,28 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/admin/scss/scfs_arnelioconnect_output_plugin.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+#wpadminbar ul li.arnelioconnect_admin_bar > a {
+  background: rgba(128, 31, 79, 0.6) !important;
+  color: #ffffff !important;
+}
+#wpadminbar ul li.arnelioconnect_admin_bar > a:hover {
+  background-color: #801f4f !important;
+  color: #ffffff !important;
+}
+#wpadminbar ul li.arnelioconnect_admin_bar .arnelioconnect_admin_bar__count {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 1px 2px -1px 0;
+  padding: 0 5px;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  background-color: #1d2327;
+  color: #c3c4c7;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.6;
+  text-align: center;
+  z-index: 26;
+}
