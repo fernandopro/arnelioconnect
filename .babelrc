@@ -1,12 +1,12 @@
 {
-    "presets": [
-      [
-        "@babel/preset-env",
-        {
-          "useBuiltIns": "usage",
-          "corejs": "3"
-        }
-      ],
-      "@babel/preset-react"
-    ]
-  }
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage", // Se añaden solo los polyfills necesarios según el uso
+        "corejs": "3.23" // Versión actualizada de core-js
+      }
+    ],
+    "@babel/preset-react"
+  ]
+}

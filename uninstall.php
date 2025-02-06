@@ -35,7 +35,7 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
  */
 
 // 1. Eliminar opciones del plugin (opción principal definida en arnelioconnect.php).
-delete_option( ARNELIOCONNECT_MENU_URL . '_options' );
+//delete_option( ARNELIOCONNECT_MENU_URL . '_options' );
 
 // 2. (Opcional) Eliminar otras opciones relacionadas utilizando un prefijo en el nombre.
 global $wpdb;
@@ -71,6 +71,12 @@ foreach ( $taxonomies as $taxonomy ) {
 global $wpdb;
 $wpdb->query(
 	"DELETE FROM {$wpdb->postmeta} WHERE meta_key LIKE 'scfs_%'"
+);
+
+// 6. Eliminar todos los transients que contengan "scfs_arnelioconnect"
+// Los transients se almacenan en la tabla de opciones con la clave '_transient_'.
+$wpdb->query(
+	"DELETE FROM {$wpdb->options} WHERE option_name LIKE '_transient_%scfs_arnelioconnect%'"
 );
 
 // 6. Si el plugin creó tablas personalizadas u otros datos, incorporarlos aquí.

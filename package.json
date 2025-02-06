@@ -29,11 +29,13 @@
     "animejs": "^3.2.2",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
-    "core-js": "^3.40.0",
     "gettext-parser": "^8.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "sweetalert2": "^11.6.13",
     "uikit": "^3.19.2"
+  },
+  "overrides": {
+    "core-js": "^3.23.3"
   }
 }
